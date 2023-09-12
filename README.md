@@ -1,23 +1,37 @@
 # python-challenge
-Unit 3 Homework: Python
-Two challenges completed using Python scripting:
-First:
-New repository created for this project called python-challenge
+Module 3 Challenge
+Due Monday by 11:59pm Points 100 Submitting a text entry box or a website url
+Background
+It's time to put away the Excel sheet and enter the world of programming with Python. In this assignment, you'll use the concepts you've learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
 
-Cloned repository to my computer.
+Before You Begin
+Before starting the assignment, be sure to complete the following steps:
 
-Inside the local git repository I have created a directory for each Python challenge. With folder names corresponding to the challenges: PyBank and PyPoll.
+Create a new repository for this project called python-challenge. Do not add this homework assignment to an existing repository.
 
-Inside of each folder are the following:
+Clone the new repository to your computer.
 
-A new file called main.py. The main script to run for each analysis.
-A Resources folder that contains the CSV files used. Including correct csv_path
-An analysis folder that contains a text file with the results from the analysis.
-Pushed to GitHub.
+Inside your local Git repository, create a folder for each Python assignment and name them PyBank and PyPoll.
 
-PyBank Challenge
-Created a Python script to analyze the financial records of a company. Using a set of financial data called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
-Created a Python script that analyzes the records to calculate each of the following:
+In each folder that you just created, add the following content:
+
+A new file called main.py. This will be the main script to run for each analysis.
+
+A Resources folder that contains the CSV files you used. Make sure that your script has the correct path to the CSV file.
+
+An analysis folder that contains your text file that has the results from your analysis.
+
+Push these changes to GitHub or GitLab.
+
+Files
+Download the following files to help you get started:
+
+Module 3 Challenge filesLinks to an external site.
+
+PyBank Instructions
+In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
+
+Your task is to create a Python script that analyzes the records to calculate each of the following values:
 
 The total number of months included in the dataset
 
@@ -29,7 +43,7 @@ The greatest increase in profits (date and amount) over the entire period
 
 The greatest decrease in profits (date and amount) over the entire period
 
-The Financial Analysis looks similar to the following:
+Your analysis should align with the following results:
 
 Financial Analysis
 ----------------------------
@@ -38,11 +52,12 @@ Total: $22564198
 Average Change: $-8311.11
 Greatest Increase in Profits: Aug-16 ($1862002)
 Greatest Decrease in Profits: Feb-14 ($-1825558)
-In addition the final script prints the analysis to the terminal and exports a text file with the results.
-PyPoll Instructions
-In this challenge the task is helping a small, rural town modernize its vote counting process.
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-Using a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". The task is to create a Python script that analyzes the votes and calculates each of the following:
+PyPoll Instructions
+In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
+
+You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
 
 The total number of votes cast
 
@@ -52,9 +67,9 @@ The percentage of votes each candidate won
 
 The total number of votes each candidate won
 
-The winner of the election based on popular vote.
+The winner of the election based on popular vote
 
-The Polling Analysis looks similar to the following:
+Your analysis should align with the following results:
 
 Election Results
 -------------------------
@@ -66,4 +81,4 @@ Raymon Anthony Doane: 3.139% (11606)
 -------------------------
 Winner: Diana DeGette
 -------------------------
-In addition the final script prints the analysis to the terminal and exports a text file with the results.
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
